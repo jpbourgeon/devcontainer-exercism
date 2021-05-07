@@ -1,0 +1,9 @@
+// https://code.visualstudio.com/docs/remote/devcontainerjson-reference
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "davraamides.todotxt-mode",
+  ],
+  "postCreateCommand": "/bin/bash /workspaces/devcontainer-exercism/.devcontainer/post-create.sh"
+}
