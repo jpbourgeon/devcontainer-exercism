@@ -6,5 +6,4 @@
     "esbenp.prettier-vscode"
   ],
   "postCreateCommand": "bash /workspaces/devcontainer-exercism/.devcontainer/post-create.sh",
-  "postAttachCommand": "bash /workspaces/devcontainer-exercism/.devcontainer/post-attach.sh"
 }
