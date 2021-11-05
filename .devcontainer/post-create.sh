@@ -1,5 +1,5 @@
 
-#!/bin/sh
+#!/bin/bash
 
 cd /home/node
 
