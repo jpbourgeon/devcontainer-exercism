@@ -3,7 +3,8 @@
   "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
   "extensions": [
     "dbaeumer.vscode-eslint",
-    "davraamides.todotxt-mode",
+    "esbenp.prettier-vscode"
   ],
-  "postCreateCommand": "/bin/bash /workspaces/devcontainer-exercism/.devcontainer/post-create.sh"
+  "postCreateCommand": "/bin/bash /workspaces/exercism/.devcontainer/post-create.sh",
+  "postAttachCommand": "/bin/bash /workspaces/exercism/.devcontainer/post-attach.sh"
 }
