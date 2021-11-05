@@ -2,11 +2,11 @@
   // dossiers de travail
   "folders": [
     {
-      "path": "/workspaces/exercises"
+      "path": "/root/exercism"
     }
   ],
   "settings": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    //"editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
       "source.fixAll": true
     },

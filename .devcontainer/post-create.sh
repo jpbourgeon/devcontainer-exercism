@@ -17,6 +17,3 @@ mv exercism ~/bin
 echo "" >> ~/.bashrc
 echo "# Exercism" >> ~/.bashrc
 echo "export PATH=~/bin:$PATH" >> ~/.bashrc
-
-## Exercices folder
-mkdir -p /workspaces/exercises

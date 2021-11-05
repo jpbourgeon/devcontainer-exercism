@@ -2,8 +2,9 @@
 {
   "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
   "extensions": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "dbaeumer.vscode-eslint"
+    // "esbenp.prettier-vscode"
   ],
+  "workspaceFolder": "/workspaces/devcontainer-exercism",
   "postCreateCommand": "bash /workspaces/devcontainer-exercism/.devcontainer/post-create.sh"
 }
