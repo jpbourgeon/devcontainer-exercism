@@ -5,6 +5,6 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode"
   ],
-  "postCreateCommand": "/bin/bash /workspaces/exercism/.devcontainer/post-create.sh",
-  "postAttachCommand": "/bin/bash /workspaces/exercism/.devcontainer/post-attach.sh"
+  "postCreateCommand": "/bin/bash /workspaces/devcontainer-exercism/.devcontainer/post-create.sh",
+  "postAttachCommand": "/bin/bash /workspaces/devcontainer-exercism/.devcontainer/post-attach.sh"
 }
