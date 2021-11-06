@@ -17,3 +17,4 @@ mv exercism ~/bin
 echo "" >> ~/.bashrc
 echo "# Exercism" >> ~/.bashrc
 echo "export PATH=~/bin:$PATH" >> ~/.bashrc
+ln -s /workspaces/devcontainer-exercism/.devcontainer/exercism.code-workspace ~/exercism.code-workspace
